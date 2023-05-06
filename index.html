@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="Bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset class="fieldset border border-primary-subtle">
+        <legend>calculator</legend>
+        <div class="marg">
+            <br/>
+            <label for="numOne" class="form-label">First Number:</label>
+            <input  type="text"
+                    name="number" 
+                    id="numOne" 
+                    class="form-control border-success"
+            placeholder="Enter the first number" />
+            </br>
+
+            <label for="numTwo" class="form-label">Second Number:</label>
+            <input  type="text"
+                    name="number" 
+                    id="numTwo" 
+                    class="form-control border-success"
+                    placeholder="Enter the second number" />
+                </br>
+        <label for="answer" class="form-label">Answer:</label>
+            <output  type="text"
+                    name="number" 
+                    id="answer"
+                    class="form-control border-success"
+                    placeholder="The answer will display here" />
+        </div>
+        <div class="calculator-keys">
+            <button type="button" class="btn btn-outline-success" value="+" id="btn1">+</button>
+            <button type="button" class="btn btn-outline-danger" value="-" id="btn3">-</button>
+            <button type="button" class="btn btn-outline-warning" value="*" id="btn2">*</button>
+            <button type="button" class="btn btn-outline-info" value="/" id="btn4">/</button> 
+        </div>
+    </fieldset>
+
+    <script>
+        document.getElementById("btn1").addEventListener("click", sum)
+        document.getElementById("btn2").addEventListener("click", multiplication)
+        document.getElementById("btn3").addEventListener("click", subtraction)
+        document.getElementById("btn4").addEventListener("click", division)
+
+        function sum()
+        {
+            var numOne, numTwo, sum;
+            numOne = parseInt(document.getElementById("numOne").value)
+            numTwo = parseInt(document.getElementById("numTwo").value)
+            sum = numOne + numTwo;
+                document.getElementById("answer").innerHTML = sum
+        }
+        function multiplication()
+        {
+            var numOne, numTwo, sum;
+            numOne = parseInt(document.getElementById("numOne").value)
+            numTwo = parseInt(document.getElementById("numTwo").value)
+            multiplication = numOne * numTwo;
+                document.getElementById("answer").innerHTML = multiplication
+        } 
+        function subtraction()
+        {
+            var numOne, numTwo, sum;
+            numOne = parseInt(document.getElementById("numOne").value)
+            numTwo = parseInt(document.getElementById("numTwo").value)
+            subtraction = numOne - numTwo;
+                document.getElementById("answer").innerHTML = subtraction
+        } 
+        function division()
+        {
+            var numOne, numTwo, sum;
+            numOne = parseInt(document.getElementById("numOne").value)
+            numTwo = parseInt(document.getElementById("numTwo").value)
+            division = numOne / numTwo;
+                document.getElementById("answer").innerHTML = division
+        } 
+    </script>
+</body>
+
+</html>

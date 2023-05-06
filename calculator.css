@@ -1,0 +1,38 @@
+html{
+    background-color: rgba(0, 93, 140, 0.767);
+}
+.fieldset {
+    height: 430px;
+    width: 350px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.832);
+    color: aliceblue;
+    border-radius: 5%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.marg{
+    margin: 30px;
+    text-align: center;
+}
+#btn1 {
+    height: 40px;
+    width: 40px;
+}
+#btn2 {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+#btn3 {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+#btn4 {
+    height: 40px;
+    width: 40px; 
+    margin-left: 20px;
+}
