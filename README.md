@@ -1,6 +1,6 @@
 # Simple Calculator using HTML, CSS and JS
 
-This repository contains a simple calculator built using HTML, CSS and JS. It performs basic mathematical operations likeaddition, subtraction, multiplication and division. The calculator has been designed with a simple and intuitive user interface.
+This repository contains a simple calculator built using HTML, CSS and JS. It performs basic mathematical operations like addition, subtraction, multiplication and division. The calculator has been designed with a simple and intuitive user interface.
 
 ## Technologies Used
 
@@ -10,7 +10,8 @@ This repository contains a simple calculator built using HTML, CSS and JS. It pe
 
 ## Preview
 
-![Simple Calculator Preview](![alt text]https://github.com/mahgolbalazadeh/Calculator/blob/main/Screenshot0.png), subtraction, multiplication, and division. The calculator is built with a simple and easy-to-use interface and can be used by anyone.
+![alt text]https://github.com/mahgolbalazadeh/Calculator/blob/main/Screenshot0.png
+addition, subtraction, multiplication, and division. The calculator is built with a simple and easy-to-use interface and can be used by anyone.
 
 ## Installation
 
