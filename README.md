@@ -10,7 +10,7 @@ This repository contains a simple calculator built using HTML, CSS and JS. It pe
 
 ## Preview
 
-![alt text]https://github.com/mahgolbalazadeh/Calculator/blob/main/Screenshot0.png
+![Simple Calculator Preview]https://github.com/mahgolbalazadeh/Calculator/blob/main/Screenshot0.png
 addition, subtraction, multiplication, and division. The calculator is built with a simple and easy-to-use interface and can be used by anyone.
 
 ## Installation
