@@ -16,8 +16,7 @@ This repository contains a simple calculator built using HTML, CSS and JS. It pe
 
 To use this calculator, simply clone this repository to your local system.
 
-bash
-git clone <https://github.com/mahgolbalazadeh/Calculator.git>
+<https://github.com/mahgolbalazadeh/Calculator.git>
 
 
 ## Usage
